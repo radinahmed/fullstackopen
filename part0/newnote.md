@@ -5,7 +5,7 @@ sequenceDiagram
     participant browser
     participant server
 
-    browser-User fills in note form and submits a new note->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    browser--User fills in note form and submits a new note->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
     deactivate server
